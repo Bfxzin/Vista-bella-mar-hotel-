@@ -1,7 +1,30 @@
-/*1 carousel*/
+body {
+    overflow-x: hidden;
+}
+
 .carousel-inner,
 .carousel-inst {
     height: 50em;
+}
+
+.carousel-eventos,
+.carousel-contato {
+    height: 50em !important;
+    background-position: 0px -20%;
+}
+
+.carousel-contato {
+    left: -5%;
+    z-index: -1;
+    position: absolute;
+    filter: blur(10px);
+    width: 110% !important;
+}
+
+.carousel-restaurante {
+    width: 90% !important;
+    height: 30em;
+    margin-left: 5%;
 }
 
 .detalhe-inst,
@@ -12,21 +35,12 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-/*0 carousel*/
-
-/*1 quebra de linha*/
 .bloco_conteudo {
     padding-top: 5%;
     min-height: 250px;
     padding-bottom: 5%;
 }
 
-
-/*0 quebra de linha*/
-
-/*1 titulo subtitulo */
-
-/*inc---*/
 .titulo {
     font-size: 50px;
     text-align: center;
@@ -47,7 +61,6 @@
     text-align: center;
 }
 
-/*inst----*/
 .inst-sub {
     font-size: 30px;
     text-align: center;
@@ -67,7 +80,6 @@
     color: rgb(182, 180, 180);
 }
 
-/*1 row-- */
 .container .row::after {
     top: 0;
     right: 0;
@@ -80,9 +92,6 @@
     transform: translateX(50%);
 }
 
-/*0 row*/
-/*0 titulo subtitulo */
-
 .bloco_institucional {
     color: white;
     background-color: rgb(41, 175, 142);
@@ -91,6 +100,17 @@
 .bloco_contato {
     color: white;
     background-color: rgb(56, 56, 56);
+}
+
+.bloco_contato_form {
+    width: 50%;
+    margin-top: -35%;
+    margin-left: 25%;
+    margin-bottom: 5%;
+    border-radius: 15px;
+    z-index: 30 !important;
+    background-color: white;
+    box-shadow: 2px 2px 3px rgb(65, 65, 65);
 }
 
 #inputObservacao {
@@ -148,10 +168,16 @@
 
 footer {
     width: 100%;
+    padding: 5%;
     color: white;
     padding-top: 3%;
+    min-height: 200px;
     padding-bottom: 3%;
     background-color: rgb(26, 26, 26);
+}
+
+#icon_rodape {
+    width: 200px;
 }
 
 .img_quarto {
@@ -169,6 +195,17 @@ footer {
 
 .formulario_contato {
     width: 60% !important;
+}
+
+#formulario_contato_form {
+    padding-left: 10%;
+    width: 100% !important;
+    z-index: 30 !important;
+}
+
+.formulario_contato_form {
+    width: 90% !important;
+    z-index: 30 !important;
 }
 
 .button_enviar_contato {
@@ -247,14 +284,6 @@ a {
     filter: drop-shadow(0px 0px 5px cyan);
 }
 
-#barra_topo_reserva {
-    margin: 5%;
-    height: 15%;
-    width: 100%;
-    background: rgb(15, 70, 70) !important;
-    background: linear-gradient(306deg, rgba(15, 70, 70, 1) 3%, rgba(12, 134, 134, 1) 52%, rgba(28, 119, 120, 1) 100%) !important;
-}
-
 #resumo_quarto {
     width: 40%;
     max-height: 200px;
@@ -265,7 +294,7 @@ a {
     padding: 2%;
 }
 
-#estatisticas_quarto{
+#estatisticas_quarto {
     width: 20%;
     padding: 2%;
     height: 200px;
@@ -274,4 +303,13 @@ a {
     position: absolute;
     box-shadow: 0px 0px 5px gainsboro inset;
     border-radius: 15px;
+}
+
+#filtro_fundo_contato {
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgb(15, 70, 70);
+    background: linear-gradient(306deg, rgba(15, 70, 70, 1) 3%, rgba(12, 134, 134, 1) 52%, rgba(28, 119, 120, 1) 100%);
 }
