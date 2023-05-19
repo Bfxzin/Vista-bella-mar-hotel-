@@ -1,0 +1,34 @@
+#login_registro {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-size: 100% 100% !important;
+    background: rgb(15, 70, 70) !important;
+    background: linear-gradient(306deg, rgba(15, 70, 70, 1) 3%, rgba(12, 134, 134, 1) 52%, rgba(28, 119, 120, 1) 100%) !important;
+
+
+}
+
+.tela-login {
+    justify-content: center;
+    text-align: center;
+    padding-top: 10%;
+}
+
+#prancheta_login,
+#prancheta_registro {
+    width: 50%;
+    padding: 5%;
+    margin-left: 24%;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 3px 3px 5px rgb(65, 65, 65);
+}
+
+#prancheta_registro {
+    display: none;
+}
+
+.mb-3 {
+    text-align: left !important;
+}
