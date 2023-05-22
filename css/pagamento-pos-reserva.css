@@ -1,0 +1,40 @@
+#prancheta_pagamento {
+    right: 2%;
+    z-index: 5;
+    margin: 5%;
+    width: 90%;
+    padding: 5%;
+    position: absolute;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.dados_input_pagamento {
+    padding: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 15px;
+    border: 1px solid gainsboro;
+}
+
+#area_pagamento {
+    margin: 2%;
+}
+
+.pag-pix {
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+}
+
+#logo_pix {
+    width: 100px;
+}
+
+input,
+select {
+    border: 1px solid gainsboro !important;
+}
+
+.input_vencimento {
+    height: 30px !important;
+}
