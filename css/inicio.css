@@ -1,0 +1,328 @@
+body {
+    overflow-x: hidden;
+}
+
+.carousel-inner,
+.carousel-inst {
+    height: 50em;
+}
+
+.carousel-eventos,
+.carousel-contato {
+    height: 50em !important;
+    background-position: 0px -20%;
+}
+
+.carousel-contato {
+    left: -5%;
+    z-index: -1;
+    position: absolute;
+    filter: blur(10px);
+    width: 110% !important;
+}
+
+.carousel-restaurante {
+    width: 90% !important;
+    height: 30em;
+    margin-left: 5%;
+}
+
+.detalhe-inst,
+.titulo,
+.subtitulo,
+.inst-titulo,
+.inst-sub {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bloco_conteudo {
+    padding-top: 5%;
+    min-height: 250px;
+    padding-bottom: 5%;
+}
+
+.titulo {
+    font-size: 50px;
+    text-align: center;
+}
+
+.subtitulo {
+    font-size: 30px;
+    text-align: center;
+    color: rgb(182, 180, 180);
+}
+
+.subtitulo_foco {
+    color: white;
+}
+
+.inst-titulo {
+    font-size: 50px;
+    text-align: center;
+}
+
+.inst-sub {
+    font-size: 30px;
+    text-align: center;
+    color: rgb(182, 180, 180);
+}
+
+.bloco-detalhe-inst {
+    width: 100%;
+    text-align: center;
+}
+
+.detalhe-inst {
+    font-size: 20px;
+    padding-left: 30%;
+    padding-right: 30%;
+    word-wrap: break-word;
+    color: rgb(182, 180, 180);
+}
+
+.container .row::after {
+    top: 0;
+    right: 0;
+    width: 1px;
+    content: '';
+    height: 100%;
+    display: block;
+    position: absolute;
+    background-color: black;
+    transform: translateX(50%);
+}
+
+.bloco_institucional {
+    color: white;
+    background-color: rgb(41, 175, 142);
+}
+
+.bloco_contato {
+    color: white;
+    background-color: rgb(56, 56, 56);
+}
+
+.bloco_contato_form {
+    width: 50%;
+    margin-top: -35%;
+    margin-left: 25%;
+    margin-bottom: 5%;
+    border-radius: 15px;
+    z-index: 30 !important;
+    background-color: white;
+    box-shadow: 2px 2px 3px rgb(65, 65, 65);
+}
+
+#inputObservacao {
+    resize: none;
+}
+
+.card,
+.col {
+    padding: 0px !important;
+}
+
+.nome_cidade {
+    width: 55%;
+    float: left;
+    font-size: 20px;
+    max-height: 30px;
+    overflow: hidden;
+    position: absolute;
+    border-radius: 15px;
+    background-color: rgb(33, 108, 143);
+}
+
+footer {
+    padding: 5%;
+    width: 100%;
+    color: white;
+    padding-top: 3%;
+    min-height: 200px;
+    background-color: rgb(26, 26, 26);
+}
+
+#icon_rodape {
+    width: 200px;
+}
+
+.card {
+    margin: 10px;
+}
+
+#formulario_contato {
+    margin-left: 15%;
+    width: 80% !important;
+}
+
+#formulario_contato_form {
+    width: 100% !important;
+    z-index: 30 !important;
+}
+
+.formulario_contato_form {
+    width: 90% !important;
+    z-index: 30 !important;
+}
+
+.button_enviar_contato {
+    height: 50px !important;
+    margin-top: 4% !important;
+}
+
+.carousel-area-lazer {
+    height: 30em;
+}
+
+.quadro_insti {
+    border-left: 1px solid grey;
+}
+
+.col_insti {
+    height: 300px;
+}
+
+hr {
+    width: 30%;
+}
+
+.qart_1 {
+    background-image: url("../files/q1.jpeg");
+}
+
+.qart_2 {
+    background-image: url("../files/q2.jpeg");
+}
+
+.qart_3 {
+    background-image: url("../files/q3.jpeg");
+}
+
+.qart_4 {
+    background-image: url("../files/q4.jpg");
+}
+
+.qart_5 {
+    background-image: url("../files/q5.jpeg");
+}
+
+.qart_6 {
+    background-image: url("../files/q6.jpeg");
+}
+
+.navbar_topo {
+    top: 0px;
+    z-index: 20;
+    width: 100%;
+    position: fixed !important;
+}
+
+.navbar_color {
+    color: white !important;
+    text-decoration: none !important;
+    background-color: rgba(0, 0, 0, .6) !important;
+}
+
+.dropdown-item:hover {
+    background-color: rgba(0, 0, 0, .8) !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+#titulo_hotel_carousel {
+    right: 2%;
+    width: 120px;
+    position: absolute;
+}
+
+#filtro_fundo_contato {
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgb(15, 70, 70);
+    background: linear-gradient(306deg, rgba(15, 70, 70, 1) 3%, rgba(12, 134, 134, 1) 52%, rgba(28, 119, 120, 1) 100%);
+}
+
+#nav_topo {
+    top: 0px;
+    position: fixed;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.navbar.custom {
+    width: 100%;
+    height: 8%;
+    margin: 0;
+}
+
+.hoverable {
+    display: inline-block;
+    backface-visibility: hidden;
+    vertical-align: middle;
+    position: relative;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    transform: translateZ(0);
+    transition-duration: .3s;
+    transition-property: transform;
+}
+
+.hoverable:before {
+    position: absolute;
+    pointer-events: none;
+    z-index: -1;
+    content: '';
+    top: 100%;
+    left: 5%;
+    height: 10px;
+    width: 90%;
+    opacity: 0;
+    background: -webkit-radial-gradient(center, ellipse, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 80%);
+    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 80%);
+    /* W3C */
+    transition-duration: 0.3s;
+    transition-property: transform, opacity;
+}
+
+.hoverable:hover,
+.hoverable:active,
+.hoverable:focus {
+    transform: translateY(-5px);
+}
+
+.hoverable:hover:before,
+.hoverable:active:before,
+.hoverable:focus:before {
+    opacity: 1;
+    transform: translateY(-5px);
+}
+
+.btn_login {
+    font-size: 25px !important;
+}
+
+.nav-login {
+    top: 19px;
+    right: 2%;
+    position: absolute;
+}
+
+.fas {
+    color: white !important;
+}
+
+.lista_quartos_inicio {
+    display: grid !important;
+    grid-gap: 10px !important;
+    grid-template-columns: auto auto auto;
+}
+
+.lista_colunas_insti {
+    display: grid !important;
+    grid-gap: 10px !important;
+    grid-template-columns: auto auto auto;
+}

@@ -1,0 +1,221 @@
+@media only screen and (min-width: 700px) and (max-width: 1366px) {}
+
+@media only screen and (min-width: 0px) and (max-width: 699px) {
+    * {
+        font-size: 12px;
+    }
+
+    h1,
+    .titulo {
+        font-size: 25px;
+    }
+
+    .subtitulo {
+        font-size: 18px;
+    }
+
+    /*1 tela login*/
+    .tela-login {
+        padding: 0px;
+        height: 100%;
+        color: white;
+    }
+
+    #prancheta_login {
+        padding-top: 65%;
+        padding-bottom: 70%;
+    }
+
+    #prancheta_login,
+    #prancheta_registro {
+        width: 100%;
+        margin: 0px;
+        margin-top: 0px;
+        padding-top: 50%;
+        padding-bottom: 50%;
+        border-radius: 0px;
+        background-color: rgba(0, 0, 0, .5);
+    }
+
+    .btn_login {
+        margin: 2%;
+        font-size: 20px;
+    }
+
+    #icon_rodape {
+        width: 50%;
+    }
+
+    footer {
+        min-height: 50px;
+    }
+
+    .navbar-collapse {
+        top: 8%;
+        left: 0px;
+        padding: 2%;
+        width: 100%;
+        position: fixed;
+        background-color: rgba(0, 0, 0, .6);
+    }
+
+    /*0 tela login*/
+
+    /*1 tela Quartos */
+
+    .conheca_quartos {
+        padding: 3%;
+        padding-top: 25%;
+    }
+
+    .qt_direita {
+        float: left;
+    }
+
+    .bloco_conteudo_quarto {
+        height: 700px;
+        padding-top: 10%;
+        box-shadow: 0px 0px 0px;
+        background-color: white;
+    }
+
+    .img_quarto {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .detalhes_quarto,
+    .detalhes_quarto_right {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 10%;
+        text-align: left;
+    }
+
+    .buttons_reserva_quarto {
+        width: 80%;
+        height: 20px;
+    }
+
+    .botoes_reserva_quarto_fechamento>.btn_reservar {
+        font-size: 20px;
+        margin-left: 20%;
+    }
+
+    .botoes_reserva_quarto {
+        width: 90%;
+        float: left;
+        height: 40px;
+    }
+
+    .valor_quarto_right {
+        margin-left: 0%;
+    }
+
+    /* Inicio */
+
+    #carouselExampleControls {
+        height: 350px;
+    }
+
+    .lista_quartos_inicio {
+        grid-template-columns: auto;
+    }
+
+    .dados_quarto {
+        margin-top: 50%;
+    }
+
+    .texto_quarto {
+        width: 70%;
+        text-align: left;
+    }
+
+    .card_quarto {
+        width: 95%;
+    }
+
+    .detalhe-inst {
+        font-size: 12px;
+        padding-left: 10%;
+        padding-right: 10%;
+        color: gainsboro;
+    }
+
+    .col_insti {
+        height: auto;
+    }
+
+    .lista_colunas_insti {
+        grid-template-columns: auto;
+        grid-row-gap: 30px;
+    }
+
+    #formulario_contato {
+        width: 100%;
+        margin-left: 10%;
+    }
+
+    /* Restaurante */
+
+    .lista_restaurante {
+        grid-template-columns: auto;
+    }
+
+    .lista_restaurante>.col {
+        width: 80%;
+        margin-left: 10%;
+        border-radius: 15px;
+        border: 1px solid gainsboro;
+    }
+
+    /* Reserva de quarto */
+    .img_reservar_quarto {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .detalhes_quarto_reserva {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 20px;
+    }
+
+    .resumo_quarto_esquerda,
+    .estatisticas_quarto {
+        width: 48%;
+        float: left;
+        margin: 0px;
+        margin-left: 1%;
+        position: relative;
+    }
+
+    .botoes_reserva_quarto_fechamento {
+        width: 100%;
+        height: 80px;
+        margin-top: 210px;
+    }
+
+    .checkin-out {
+        right: 0;
+        margin-top: 23%;
+        margin-left: 57%;
+        position: absolute;
+    }
+
+    .checkin-out>label {
+        float: left;
+    }
+
+    /* Pagamento */
+
+    #prancheta_pagamento {
+        top: 0px;
+        right: 0px;
+        margin: 0px;
+        width: 100%;
+        padding-top: 35%;
+        border-radius: 0px;
+        padding-bottom: 70%;
+    }
+}

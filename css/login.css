@@ -32,3 +32,27 @@
 .mb-3 {
     text-align: left !important;
 }
+
+input[type="checkbox"] {
+    /* Esconder a caixa de seleção padrão */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 5px;
+    vertical-align: middle;
+    position: relative;
+    top: 3px;
+}
+
+input[type="checkbox"]:checked {
+    /* Estilizar a caixa de seleção quando estiver marcada */
+    background-color: #2196F3;
+}
+
+input[type="checkbox"]:focus {}
+
+/* Estilizar a caixa
